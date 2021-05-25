@@ -1,0 +1,57 @@
+@media screen and (max-width:1000px){
+    header .container {
+        display:flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 240px;
+        height: 60px;
+    }
+
+    .botoes {
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content:space-around;
+    }
+    .main-game .main-container{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+    .main-game {
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .container-img {
+        width: 100%;
+        height: 60vh;
+        background-size: 100vw;
+    }
+
+    .main-cab {
+        width: 100%;
+    
+    }
+
+    .container-info {
+        width: 100%;
+        height: 30vh;
+
+    }
+
+    .main-logo {
+        display: none;
+        
+    }
+
+}
